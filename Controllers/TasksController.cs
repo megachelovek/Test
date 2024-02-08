@@ -4,6 +4,7 @@ using Test.Services;
 
 namespace Test.Controllers
 {
+    //Проект собирается, но я его не тестировал. 
     [ApiController]
     [ProducesResponseType(typeof(Exception), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(Exception), StatusCodes.Status404NotFound)]
